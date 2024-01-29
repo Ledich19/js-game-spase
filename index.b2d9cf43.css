@@ -1,0 +1,50 @@
+body {
+  background: #000;
+}
+
+#container {
+  width: 1280px;
+  border: 3px solid #de5252;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loading-indicator {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start_btn {
+  cursor: pointer;
+  font: inherit;
+  color: #00a2ff;
+  background-color: #000000c8;
+  border: 5px solid;
+  border-radius: 1em;
+  margin: .5em;
+  padding: .5em 2em;
+  font-weight: bold;
+  line-height: 1;
+  transition: all .25s;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start_btn:hover {
+  color: #fff;
+  border-color: #00a2ff;
+  transform: translate(-50%, -52%);
+  box-shadow: 0 .5em .5em -.4em #00a2ff;
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */
