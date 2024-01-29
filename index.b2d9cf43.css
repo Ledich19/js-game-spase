@@ -22,7 +22,6 @@ body {
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-}
 
 #start_btn {
   cursor: pointer;
